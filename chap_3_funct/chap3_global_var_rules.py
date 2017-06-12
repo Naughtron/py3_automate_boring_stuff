@@ -8,8 +8,8 @@ def bacon():
 def ham():
     print(eggs) # this will print the global value
     
-eggs = 42 # this is now the global value 
+eggs = 42 
 # call spam
 spam()
 
-print(eggs)
+print(eggs) # this should show spam
